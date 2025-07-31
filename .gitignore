@@ -1,0 +1,82 @@
+# SAIDTECH VPN Script - Git Ignore File
+
+# Logs
+*.log
+logs/
+/opt/saidtech/logs/
+
+# User data (sensitive)
+users/
+/opt/saidtech/users/
+*_users.txt
+*_trial.txt
+
+# Backups
+backup/
+/opt/saidtech/backup/
+*.tar.gz
+*.backup
+
+# Config files (may contain sensitive data)
+config/
+/opt/saidtech/config/
+*.conf
+*.config
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.csr
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.pub
+
+# System files
+/var/log/
+/etc/iptables/
+
+# Test files
+test/
+tests/
+*.test
+
+# Documentation build
+docs/_build/
+site/
+
+# Node modules (if any)
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+*.old
+*.orig
